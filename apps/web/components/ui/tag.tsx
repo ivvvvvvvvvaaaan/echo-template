@@ -17,12 +17,12 @@
  * <Tag icon={<CheckIcon />} color="green">Completed</Tag>
  */
 
-import { cn } from "@/lib/utils"
-import { cva, type VariantProps } from "class-variance-authority"
 import * as React from "react"
+import { cn } from "@repo/utils/cn"
+import { cva, type VariantProps } from "class-variance-authority"
 
 const tagVariants = cva(
-  "inline-flex items-center justify-start gap-1 font-semibold",
+  "inline-flex items-center gap-2 rounded-full font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
   {
     variants: {
       type: {

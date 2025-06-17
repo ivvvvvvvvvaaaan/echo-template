@@ -6,7 +6,7 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { cn } from "@/lib/utils"
+import { cn } from "@repo/utils/cn"
 import { cva, type VariantProps } from "class-variance-authority"
 import * as React from "react"
 import { MenuItem } from "./menu-item"
