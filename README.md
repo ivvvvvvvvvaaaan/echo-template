@@ -1,30 +1,36 @@
-# Dubbing app layout
+# Echo AI Application Template
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+This is a monorepo template for building full-stack AI applications. It comes pre-configured with a shared component library, utilities, and a web application, all managed with pnpm workspaces.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ivvvvvvvvvaaaans-projects/v0-dubbing-app-layout)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/uzTswB4GUfI)
+## What's Inside?
 
-## Overview
+This monorepo includes:
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- `apps/web`: A Next.js application. This is where you'll build your user-facing app.
+- `packages/ui`: A shared React component library. All your reusable components go here.
+- `packages/utils`: Shared utility functions (e.g., `cn` for Tailwind class names).
+- `packages/typescript-config`: Shared `tsconfig.json`s for the entire monorepo.
+- `packages/eslint-config`: Shared ESLint configurations.
 
-## Deployment
+## Getting Started
 
-Your project is live at:
+To get started with this template:
 
-**[https://vercel.com/ivvvvvvvvvaaaans-projects/v0-dubbing-app-layout](https://vercel.com/ivvvvvvvvvaaaans-projects/v0-dubbing-app-layout)**
+1.  Clone the repository.
+2.  Install dependencies using pnpm:
 
-## Build your app
+    ```bash
+    pnpm install
+    ```
 
-Continue building your app on:
+3.  Start the development server:
 
-**[https://v0.dev/chat/projects/uzTswB4GUfI](https://v0.dev/chat/projects/uzTswB4GUfI)**
+    ```bash
+    pnpm dev
+    ```
 
-## How It Works
+This will start the Next.js application in `apps/web`.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Building Your Component Library
+
+To add a new component, follow the guide in `MIGRATION_PLAN.md`. The basic process is to create the component in `packages/ui/src` and export it from `packages/ui/package.json`. It will then be available to import in any application within the monorepo.
