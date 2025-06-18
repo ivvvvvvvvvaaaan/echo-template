@@ -1,4 +1,4 @@
-# Echo AI Application Template
+# HKNS AI Application Template
 
 A clean, modern, and scalable template for building full-stack AI application. Get all Hawkins components out the box.
 
