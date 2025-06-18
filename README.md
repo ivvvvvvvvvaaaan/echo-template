@@ -33,20 +33,3 @@ To get started with this template:
     ```
 
 This will launch the Next.js application, which you can view at `http://localhost:3000`.
-
-## Building Your Component Library
-
-This template is designed to grow with you. To add a new UI component:
-
-1.  Create your component file in `packages/ui/src`. For example, `packages/ui/src/new-component.tsx`.
-2.  Add an export for your new component in `packages/ui/package.json`:
-    ```json
-    "exports": {
-      // ... existing exports
-      "./new-component": "./src/new-component.tsx"
-    },
-    ```
-3.  You can now import it directly into any application (e.g., `apps/web`):
-    ```tsx
-    import { NewComponent } from "@repo/ui/new-component";
-    ```
