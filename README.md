@@ -1,6 +1,6 @@
 # Echo AI Application Template
 
-A clean, modern, and scalable template for building full-stack AI applications. It comes pre-configured with a shared component library, a two-page application structure, and all the necessary tooling for a seamless developer experience.
+A clean, modern, and scalable template for building full-stack AI application. Get all Hawkins components out the box.
 
 ## What's Inside?
 
