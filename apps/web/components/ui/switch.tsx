@@ -23,12 +23,12 @@ const Switch = React.forwardRef<
     ref={ref}
   >
     <div className="absolute inset-0 flex items-center justify-between px-[7px]">
-      <div className="h-[6px] w-[1.5px] rounded-lg bg-white transition-opacity group-data-[state=checked]:opacity-100 group-data-[state=unchecked]:opacity-0" />
-      <div className="h-[6px] w-[6px] rounded-full border-[1.5px] border-white/60 transition-opacity group-data-[state=checked]:opacity-0 group-data-[state=unchecked]:opacity-100" />
+      <div className="h-[6px] w-[1.5px] rounded-lg bg-foreground-inverse transition-opacity group-data-[state=checked]:opacity-100 group-data-[state=unchecked]:opacity-0" />
+      <div className="h-[6px] w-[6px] rounded-full border-[1.5px] border-foreground-inverse/60 transition-opacity group-data-[state=checked]:opacity-0 group-data-[state=unchecked]:opacity-100" />
     </div>
     <SwitchPrimitives.Thumb
       className={cn(
-        "pointer-events-none block h-3 w-3 rounded-lg bg-white shadow-lg ring-0 transition-transform",
+        "pointer-events-none block h-3 w-3 rounded-lg bg-foreground-inverse shadow-lg ring-0 transition-transform",
         "data-[state=checked]:translate-x-[18px]",
         "data-[state=unchecked]:translate-x-[2px]"
       )}
