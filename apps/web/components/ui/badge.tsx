@@ -58,7 +58,7 @@ export interface BadgeProps
     VariantProps<typeof badgeVariants> {
   color?: string | Status
   options?: { label: string; value: string }[]
-  onOptionSelect?: (value: string) => void
+  onOptionSelect?: (_value: string) => void
   value?: string
 }
 

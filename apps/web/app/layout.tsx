@@ -3,8 +3,8 @@ import '../globals.css'
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
-  title: 'Echo Echo Bravo',
-  description: 'Prototype for dubbing',
+  title: 'HWKNS AI',
+  description: 'Deign system for Hawkins',
   generator: 'v0 and others',
 }
 

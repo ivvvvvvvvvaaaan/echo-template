@@ -1,5 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { UserAvatar } from "@/components/ui/user-avatar"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@repo/ui/button"
 import {
@@ -23,7 +24,7 @@ import { Switch } from "@/components/ui/switch"
 import { Tag } from "@/components/ui/tag"
 import { Textarea } from "@/components/ui/textarea"
 import { Modal, ConfirmationModal } from "@/components/ui/modal"
-import { Circle, Info, Plus } from "lucide-react"
+import { Info, Plus } from "lucide-react"
 
 export function ComponentsWorkspace() {
   return (
@@ -50,10 +51,20 @@ export function ComponentsWorkspace() {
       {/* Avatar */}
       <section>
         <h2 className="text-xl font-semibold mb-4">Avatar</h2>
-        <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
+        <div className="flex items-center space-x-4">
+          <UserAvatar size="compact" name="Compact" />
+          <UserAvatar size="small" name="Small" />
+          <UserAvatar size="standard" name="Standard" />
+          <UserAvatar size="medium" name="Medium" />
+          <UserAvatar size="large" name="Large" />
+        </div>
+        <div className="flex items-center space-x-4 mt-4">
+          <UserAvatar size="compact" name="Joyce Byers" src="https://github.com/shadcn.png" />
+          <UserAvatar size="small" name="Joyce Byers" src="https://github.com/shadcn.png" />
+          <UserAvatar size="standard" name="Joyce Byers" src="https://github.com/shadcn.png" />
+          <UserAvatar size="medium" name="Joyce Byers" src="https://github.com/shadcn.png" />
+          <UserAvatar size="large" name="Joyce Byers" src="https://github.com/shadcn.png" />
+        </div>
       </section>
 
       {/* Badge */}
