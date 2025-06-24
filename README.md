@@ -43,7 +43,7 @@ This template includes a variety of pre-built components to get you started:
 
 ## Prerequisites
 
-```**Install Cursor (or else) and ask it to explain this to you if its unclear.**```
+**Install Cursor (or else) and ask it to explain this to you if its unclear.**
 
 To work with this template effectively, you'll need a few things set up on your computer. 
 
