@@ -43,9 +43,10 @@ This template includes a variety of pre-built components to get you started:
 
 ## Prerequisites
 
+```**Install Cursor (or else) and ask it to explain this to you if its unclear.**```
+
 To work with this template effectively, you'll need a few things set up on your computer. 
 
-**Install Cursor (or else) and ask it to explain this to you if its unclear.**
 
 - **Node.js**: This project requires Node.js to run. We recommend using the latest Long-Term Support (LTS) version. You can download it from [nodejs.org](https://nodejs.org/).
 - **pnpm**: We use pnpm as the package manager for this monorepo. After installing Node.js, you can install pnpm by running `npm install -g pnpm` in your terminal.
