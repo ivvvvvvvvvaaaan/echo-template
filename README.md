@@ -41,6 +41,14 @@ This template includes a variety of pre-built components to get you started:
 - **HorizontalNav**: A horizontal navigation bar.
 - **ThemeProvider**: Manages application themes (e.g., light/dark mode).
 
+## Prerequisites
+
+To work with this template effectively, you'll need a few things set up on your computer. Install Cursor (or else) and ask it to explain this to you if its unclear.
+
+- **Node.js**: This project requires Node.js to run. We recommend using the latest Long-Term Support (LTS) version. You can download it from [nodejs.org](https://nodejs.org/).
+- **pnpm**: We use pnpm as the package manager for this monorepo. After installing Node.js, you can install pnpm by running `npm install -g pnpm` in your terminal.
+- **Code Editor**: A modern code editor is recommended for the best experience. We suggest using [VS Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/), as they offer powerful features like IntelliSense for code completion and an integrated terminal for running commands.
+
 ## Getting Started
 
 To get started with this template:
