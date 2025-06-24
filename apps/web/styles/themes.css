@@ -149,8 +149,8 @@
   /* Destructive Semantic Colors */
   --destructive-background-rgb: var(--red-600);
   --destructive-foreground-rgb: 255 255 255;
-  --destructive-secondary-border-rgb: var(--red-300);
-  --destructive-secondary-foreground-rgb: var(--red-300);
+  --destructive-secondary-border-rgb: var(--red-500);
+  --destructive-secondary-foreground-rgb: var(--red-600);
 
   /* HSL variables for shadcn/ui compatibility */
   --border: 220 13% 91%;
@@ -241,13 +241,13 @@
   --shadow-mid-secondary: rgba(0, 0, 0, 0.6);
 
   /* Destructive Semantic Colors */
-  --destructive-background-rgb: var(--red-600);
-  --destructive-foreground-rgb: 255 255 255;
+  --destructive-background-rgb: var(--red-300);
+  --destructive-foreground-rgb: 0 0 0;
   --destructive-secondary-border-rgb: var(--red-300);
   --destructive-secondary-foreground-rgb: var(--red-300);
 
   /* HSL variables for shadcn/ui compatibility */
-  --border: 0 0% 17.6%;
+  --border: 0 0% 14.9%;
   --input: 0 0% 17.6%;
   --ring: 229 84% 62%;
   --chart-1: 229 84% 62%;
@@ -263,4 +263,6 @@
   --sidebar-accent-foreground: 0 0% 98%;
   --sidebar-border: 0 0% 17.6%;
   --sidebar-ring: 229 84% 62%;
+
+  --accent-foreground-rgb: 255 255 255;
 }
