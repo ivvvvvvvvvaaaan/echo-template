@@ -37,7 +37,7 @@ export default function DubbingApp() {
             <span>{isConnected ? "Disconnect" : "Connect to Pro Tools"}</span>
           </Button>
         </div>
-        <Button variant="icon" size="icon" className="text-foreground-dim hover:text-foreground-inverse">
+        <Button variant="icon" size="icon">
           <Cloud className="h-5 w-5" />
         </Button>
       </Header>

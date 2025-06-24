@@ -23,7 +23,7 @@ interface HeaderProps {
 
 export function Header({ activeView, setActiveView, children }: HeaderProps) {
   return (
-    <header className="h-[72px] border-b border-border-dim bg-surface-background-2">
+    <header className="h-[72px] border-b border-border-dim bg-surface-0 dark:bg-surface-3 shadow-low dark:shadow-none">
       <div className="flex h-full items-center justify-between px-4">
         <div className="flex items-center space-x-6">
           <div className="flex items-center justify-center w-8 h-8 bg-surface-product-brand rounded text-foreground-inverse font-bold text-lg">
@@ -37,7 +37,7 @@ export function Header({ activeView, setActiveView, children }: HeaderProps) {
 
           <ThemeToggle />
 
-          <Button variant="icon" size="icon" className="text-foregrounds-dim hover:text-white">
+          <Button variant="icon" size="icon">
             <Settings className="h-5 w-5" />
           </Button>
 

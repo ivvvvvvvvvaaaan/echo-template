@@ -30,8 +30,8 @@ const buttonVariants = cva(
         secondary: "bg-transparent border border-border-subtle text-foreground dark:border-border-inverse-subtle dark:text-foreground hover:bg-surface-highlight dark:hover:bg-white/10 disabled:bg-transparent disabled:opacity-40 disabled:border-opacity-20",
         "secondary-destructive":
           "bg-transparent border border-destructive-secondary-border border-opacity-40 text-destructive-secondary-foreground hover:bg-destructive/10",
-        tertiary: "bg-transparent text-foreground/90 hover:bg-white/10",
-        icon: "bg-transparent text-foreground/90 hover:bg-white/10",
+        tertiary: "bg-transparent text-foreground hover:bg-surface-highlight dark:hover:bg-white/10",
+        icon: "bg-transparent text-foreground hover:bg-surface-highlight dark:hover:bg-white/10",
       },
       size: {
         default: "h-10 px-3 py-[10px] text-base font-semibold",
