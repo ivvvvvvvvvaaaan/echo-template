@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { MenuItem } from "./ui/menu-item";
 import { UserAvatar } from "./ui/user-avatar";
+import { ThemeToggle } from "./theme-toggle";
 
 type View = "profile" | "dashboard" | "components";
 
@@ -34,7 +35,9 @@ export function Header({ activeView, setActiveView, children }: HeaderProps) {
         <div className="flex items-center space-x-3">
           {children}
 
-          <Button variant="icon" size="icon" className="text-foreground-dim hover:text-foreground-inverse">
+          <ThemeToggle />
+
+          <Button variant="icon" size="icon" className="text-foregrounds-dim hover:text-white">
             <Settings className="h-5 w-5" />
           </Button>
 
